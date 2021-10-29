@@ -1,0 +1,27 @@
+{% extends "base.html" %}
+<h1>SECCION DE NOSOTROS</h1>
+
+{% block titulo %} Agregar nuevo titulo{% endblock %}
+
+{% block contenido %}
+
+<div class="card">
+    <div class="card-header">
+        crear un libro
+    </div>
+
+    <div class="card-body">
+        <h4 class="card-title" > Datos de libro </h4>
+
+        {% include 'libros/form.html' %}
+    </div>
+
+    <div class="card-footer text-muted">
+
+    </div>
+
+</div>
+
+{% endblock %}
+
+
